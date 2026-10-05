@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    "다낭 DLG 한인 사쿠라 공식 홈페이지입니다. A~F 코스 가격, 영업시간, 위치, 내부 시설, 픽업 서비스 및 카카오톡 예약 정보를 확인하세요.",
+    "다낭 DLG 한인 사쿠라 코스 가격, 영업시간, 위치, 픽업 및 예약 정보를 확인하세요.",
 
     verification: {
   other: {
