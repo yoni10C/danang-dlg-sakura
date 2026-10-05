@@ -12,6 +12,13 @@ export const metadata: Metadata = {
   description:
     "다낭 DLG 한인 사쿠라 공식 홈페이지입니다. A~F 코스 가격, 영업시간, 위치, 내부 시설, 픽업 서비스 및 카카오톡 예약 정보를 확인하세요.",
 
+    verification: {
+  other: {
+    "naver-site-verification":
+      "2a08f91622fe47f870f09f8b3a5f57047fe75b9b",
+  },
+},
+
   keywords: [
     "다낭 DLG 사쿠라",
     "다낭 한인 사쿠라",
