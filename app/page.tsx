@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   const courses = [
@@ -97,27 +98,45 @@ export default function Home() {
             <span className="text-[#a5233f]">DLG SAKURA</span>
           </a>
 
-          <nav className="flex gap-3 text-xs font-bold text-gray-600 sm:gap-5 sm:text-sm">
-            <a href="#about" className="hover:text-[#a5233f]">
-              소개
-            </a>
+          <div className="flex items-center gap-3">
+            <nav className="hidden gap-5 text-sm font-bold text-gray-600 md:flex">
+              <a href="#about" className="hover:text-[#a5233f]">
+                소개
+              </a>
 
-            <a href="#price" className="hover:text-[#a5233f]">
-              가격
-            </a>
+              <a href="#price" className="hover:text-[#a5233f]">
+                가격
+              </a>
 
-            <a href="#gallery" className="hover:text-[#a5233f]">
-              내부
-            </a>
+              <a href="#gallery" className="hover:text-[#a5233f]">
+                내부
+              </a>
 
-            <a href="#location" className="hover:text-[#a5233f]">
-              위치
-            </a>
+              <a href="#location" className="hover:text-[#a5233f]">
+                위치
+              </a>
 
-            <a href="#faq" className="hover:text-[#a5233f]">
-              FAQ
-            </a>
-          </nav>
+              <a href="#faq" className="hover:text-[#a5233f]">
+                FAQ
+              </a>
+            </nav>
+
+            <div className="flex items-center rounded-full border border-[#e9cad1] bg-[#fff2f4] p-1 text-xs font-black">
+              <Link
+                href="/"
+                className="rounded-full bg-[#a5233f] px-3 py-2 text-white"
+              >
+                한국어
+              </Link>
+
+              <Link
+                href="/zh"
+                className="rounded-full px-3 py-2 text-gray-500 transition hover:text-[#a5233f]"
+              >
+                中文
+              </Link>
+            </div>
+          </div>
         </div>
       </header>
 
@@ -209,9 +228,7 @@ export default function Home() {
 
               <div className="mt-7 space-y-3 rounded-2xl bg-[#fff1f4] p-5 text-sm font-semibold text-gray-700">
                 <p>🕐 영업시간 : 오후 2시 ~ 라스트입장 오후 11시</p>
-                <p>
-                  📍 주소 : 99 Chính Hữu, An Hải, Đà Nẵng 05000
-                </p>
+                <p>📍 주소 : 99 Chính Hữu, An Hải, Đà Nẵng 05000</p>
                 <p>💬 한국어 예약 및 문의 가능</p>
                 <p>🚗 픽업 서비스 이용 가능</p>
               </div>
